@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-product {
+    height: 300px;
+
+}
+.card-product img {
+    transform: translateY(-20px);
+    max-width: 100%;
+    height: 100%;
+}
+.hv-product:hover img {
+    transform: translateY(-20px);
+}
+.size {
+    display: flex;
+    justify-content: space-between;
+}
+.size li {
+    font-size: 16px;
+    color: #111;
+    background-color: #ccc;
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50px;
+    list-style: none;
+}
+.size span {
+    line-height: 30px;
+    font-size: 20px;
+}
+.title {
+    font-weight: 700;
+}
+.price {
+    font-size: 25px;
+    font-weight: 600;
+}
+.sale {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #BF2222;
+    font-weight: 500;
+}
+.card-product .content-product .size li.active {
+    background-color: #BF2222;
+    color: #fff;
+}
+.content-product {
+    transform: none;
+    position: relative;
+}
+.content-product .price {
+    opacity: 1;
+}
+.content-product .size {
+    margin-top: 20px;
+}
+.content-product .btn {
+    height: 40px;
+    width: 200px;
+    margin: 10px 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: #BF2227 !important;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+    user-select: none !important;
+}
+
+.content-product .btn:hover {
+    color: #fff;
+}
+#sort-1 {
+    padding: 10px 5px;
+    margin-right: 5px;
+}
+#sort-product {
+    padding: 10px;
+
+}
+.sort-list {
+    /* border: none; */
+    padding: 10px 10px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+@media all and (max-width: 1312px) {
+    .sort-list {
+        width: 130px;
+    }
+    .search1 {
+        width: 200px !important;
+        margin-left: 10px;
+    }
+    
+}
+
+.btn-sort {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn-sort i {
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+@media all and (max-width: 766px) {
+    .slide {
+        height: 600px;
+    }
+    
+}
+@media all and (max-width: 600px) {
+    .slide {
+        height: 500px;
+    }
+    .slide img {
+        height: auto;
+    }
+    
+}
+@media all and (max-width: 1200px) {
+    .navbar-1 {
+        background: none;
+    }
+    .width-1 {
+        margin: 10px 0;
+    }
+}
+

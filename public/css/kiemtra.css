@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    z-index: 3 !important;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    width: 500px;
+}
+
+.tien {
+    background: rgb(0 0 0  / 15%);
+    max-width: 800px;
+    transform: translateY(-35px);
+    z-index: 0;
+    border: 3px solid rgb(255 255 255 / 15%);
+
+   
+}
+.tien input {
+    margin: 20px 0px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color:#fff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    
+    
+}
+.tien button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+.tien input:focus {
+    border: none;
+}
+.container-map {
+    display: flex;
+    justify-content: center;
+}
